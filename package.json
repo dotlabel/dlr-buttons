@@ -12,7 +12,8 @@
     "prebuild": "npm run clean",
     "watch": "babel --watch src --out-dir lib",
     "prepublish": "npm run build",
-    "example": "browserify examples/basic.js -d -t babelify > examples/bundle.js"
+    "example": "browserify examples/basic.js -d -t babelify > examples/bundle.js",
+    "serve": "serveur -cJS -o ./examples"
   },
   "keywords": [
     "React",
@@ -34,6 +35,7 @@
     "browserify": "^10.2.4",
     "eslint": "^0.24.0",
     "glob": "^5.0.12",
+    "serveur": "^1.1.4",
     "tape": "^4.0.0"
   }
 }
