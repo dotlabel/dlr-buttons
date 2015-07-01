@@ -2,4 +2,4 @@
 .eslintrc
 .travis.yml
 src
-example
+examples
